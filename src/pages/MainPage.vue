@@ -22,7 +22,7 @@
       </p>
       <div
         v-else
-        class="flex justify-center 2xl:justify-start flex-wrap gap-x-12 gap-y-6"
+        class="flex justify-center 2xl:justify-start flex-wrap gap-x-12 gap-y-8"
       >
         <div v-for="(elem, idx) in paginatedData" :key="`client_${idx}`">
           <InfoCard :data="elem" />
